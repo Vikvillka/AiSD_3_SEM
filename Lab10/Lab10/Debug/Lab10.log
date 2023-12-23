@@ -1,0 +1,41 @@
+﻿Сборка начата 23.12.2023 22:16:50.
+Уровень детализации журнала: Normal.     1>Проект "D:\3_SEM_LABS\AiSD\Lab10\Lab10\Lab10.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Создание каталога "D:\3_SEM_LABS\AiSD\Lab10\Debug\".
+         Создание каталога "Debug\Lab10.tlog\".
+       InitializeBuildStatus:
+         Создание "Debug\Lab10.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt Lab10.cpp
+         Lab10.cpp
+     1>D:\3_SEM_LABS\AiSD\Lab10\Lab10\Lab10.cpp(72,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+     1>D:\3_SEM_LABS\AiSD\Lab10\Lab10\Lab10.cpp(133,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+     1>D:\3_SEM_LABS\AiSD\Lab10\Lab10\Lab10.cpp(214,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+     1>D:\3_SEM_LABS\AiSD\Lab10\Lab10\Lab10.cpp(242,27): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+     1>D:\3_SEM_LABS\AiSD\Lab10\Lab10\Lab10.cpp(246,27): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+     1>D:\3_SEM_LABS\AiSD\Lab10\Lab10\Lab10.cpp(250,27): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+     1>D:\3_SEM_LABS\AiSD\Lab10\Lab10\Lab10.cpp(254,18): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"D:\3_SEM_LABS\AiSD\Lab10\Debug\Lab10.exe" /INCREMENTAL /ILK:"Debug\Lab10.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\3_SEM_LABS\AiSD\Lab10\Debug\Lab10.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\3_SEM_LABS\AiSD\Lab10\Debug\Lab10.lib" /MACHINE:X86 Debug\Lab10.obj
+         Lab10.vcxproj -> D:\3_SEM_LABS\AiSD\Lab10\Debug\Lab10.exe
+       FinalizeBuildStatus:
+         Файл "Debug\Lab10.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\Lab10.tlog\Lab10.lastbuildstate".
+     1>Сборка проекта "D:\3_SEM_LABS\AiSD\Lab10\Lab10\Lab10.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "D:\3_SEM_LABS\AiSD\Lab10\Lab10\Lab10.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\3_SEM_LABS\AiSD\Lab10\Lab10\Lab10.cpp(72,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+         D:\3_SEM_LABS\AiSD\Lab10\Lab10\Lab10.cpp(133,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+         D:\3_SEM_LABS\AiSD\Lab10\Lab10\Lab10.cpp(214,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+         D:\3_SEM_LABS\AiSD\Lab10\Lab10\Lab10.cpp(242,27): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+         D:\3_SEM_LABS\AiSD\Lab10\Lab10\Lab10.cpp(246,27): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+         D:\3_SEM_LABS\AiSD\Lab10\Lab10\Lab10.cpp(250,27): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+         D:\3_SEM_LABS\AiSD\Lab10\Lab10\Lab10.cpp(254,18): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+
+    Предупреждений: 7
+    Ошибок: 0
+
+Прошло времени 00:00:01.93
